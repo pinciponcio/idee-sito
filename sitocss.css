@@ -1,0 +1,63 @@
+
+body{
+	background-image: url("paesaggio.png");
+	background-repeat: no-repeat;
+	align-items: center;
+	width: 100%;
+	height:auto;
+}
+
+#menuBox{
+	overflow:auto;
+}
+ul#menu {
+   font-family: Futura, sans-serif;
+    font-size: 12px;
+    list-style: none;
+	width: 65%;
+	margin: 0 auto;
+	padding: 4%;
+	overflow:auto;
+}
+ul#menu li {
+    background-color: #e09085;
+    border-bottom: 4px solid #df97a5;
+    width: 11%;
+    height: 3%;
+    margin: auto;
+	padding-bottom:1%;
+    display: inline;
+	float: left;
+	text-align:center;
+}
+
+ul#menu li a {
+    color: #fff;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul#menu li img { 
+	height: 100%;
+	width: 100%;
+	background-color:#fff
+	padding-bottom: 10%;	
+}
+ 
+ul#menu li.active, ul#menu li:hover {
+    background-color: #e09085;
+    border-bottom: 2px solid #df97a5;
+}
+
+ul#menu li.logo{ 
+	width: 20%; 
+	height: 13%;
+	background-color: #fff; 
+	border-bottom-color:#fff;
+}
+
+*{
+
+}
